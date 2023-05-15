@@ -1,0 +1,59 @@
+
+.aboutContainer{
+    display:flex;
+    justify-content: center;
+   flex-flow:row wrap;
+}
+
+.about{
+    height:130vh;
+    width:80%;
+    text-align: center;
+    margin-top:30vh;
+    align-items:center;
+    border:1px solid black;
+    position:absolute;
+    display:block;
+    z-index:2;
+    float:right;
+    padding:100px;
+}
+
+.aboutTitle{
+    text-align: center;
+    font-size: 5vh;
+    margin-bottom:5vh;
+}
+
+.text{
+    font-size:18px;
+    margin-bottom:12vh;
+    text-align: justify;
+}
+
+.authortag{
+    font-size:20px
+}
+
+@media (max-width: 480px) {
+    .about{
+        width:50vh;
+        height:100vh;
+        padding:10px;
+    }
+    .text{
+        font-size:12px;
+        margin-bottom:0;
+    }
+    .authortag{
+        font-size:14px
+    }
+    .aboutTitle{
+        font-size: 3vh;
+    }
+
+  }
+
+
+
+
